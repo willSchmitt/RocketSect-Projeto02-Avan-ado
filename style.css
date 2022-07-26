@@ -1,0 +1,119 @@
+/*=============== GERAL ================= */
+body {
+  margin: 0;
+
+  background-color: #2C2B3D;
+
+  font-family: 'JetBrains Mono', monospace;
+
+  padding: 15px;
+}
+
+.container {
+  padding-top: 71px;
+  padding-left: 98px;
+  padding-right: 98px;
+}
+/*=============== HEADER ================= */
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header ul {
+  display: flex;
+  list-style-type: none;
+  gap: 64px;
+}
+
+.header ul li a {
+  text-decoration: none;
+  color: hsla(0, 0%, 100%, 1);
+  font-size: 14px;
+  line-height: 28px;
+  font-weight: 500;
+
+  cursor: pointer;
+}
+
+.header ul li a:hover {
+  color: rgb(207, 170, 170);
+}
+
+/*=============== MAIN ================= */
+
+main.geral {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 92px;
+
+  margin-bottom: 157px;
+  margin-top: 101px;
+}
+
+main .text h1 {
+  font-size: 36px;
+  color: hsla(0, 0%, 100%, 1);
+  line-height: 40px;
+
+  margin-bottom: 59px;
+}
+
+main .text h1 span {
+  color: hsla(172, 100%, 37%, 1);
+}
+
+main .text p {
+  font-size: 16px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  line-height: 28px;
+
+  width: 604px;
+
+  text-align: center;
+
+  color: hsla(172, 100%, 37%, 1);
+}
+
+main .text p span {
+  color: hsla(0, 0%, 76%, 1);
+  font-weight: bold;
+}
+
+/*=============== FOOTER ================= */
+
+footer {
+  text-align: center;
+}
+
+footer .line {
+  border: 1px solid #00BFA6;
+  width: 568px;
+  height: 0;
+
+  margin-left: 350px;
+
+  margin-bottom: 27px;
+}
+
+footer small {
+  font-size: 14px;
+  font-weight: 500;
+  color: hsla(0, 0%, 100%, 1);
+  line-height: 28px;
+}
+footer small a {
+  text-decoration: none;
+  color: hsla(0, 0%, 100%, 1);
+}
+
+/*=============== IMG-FINAL ================= */
+img#imgFinal {
+  position: fixed;
+  bottom: 0;
+  padding: 20px;
+}
